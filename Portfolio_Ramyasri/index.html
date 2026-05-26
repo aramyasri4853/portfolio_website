@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angadi Ramyasri | Portfolio</title>
+    <!-- CSS and Fonts -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Cosmic Background Orbs -->
+    <div class="orb-container">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- NAVBAR -->
+    <header class="navbar glass-header">
+        <div class="logo">
+            <span class="logo-icon">R</span>
+            <span class="logo-text">Ramyasri</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-controls">
+            <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark/light mode">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="mobile-menu-btn" aria-label="Toggle mobile menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="greeting-badge">WELCOME TO MY UNIVERSE</span>
+                <div class="available-badge">
+                    <span class="pulse-dot"></span>
+                    <span>Available for Opportunities</span>
+                </div>
+                <h1>Hi, I'm <span class="highlight">Angadi Ramyasri</span></h1>
+                <h2>I'm a <span id="typewriter" class="gradient-text">Full Stack</span></h2>
+                <p class="hero-desc">
+                    Motivated Computer Science Engineering student with a strong interest in Full Stack Development, Problem Solving, and Software Engineering. Currently building real-world projects and mastering DSA.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Work <i class="fas fa-arrow-right"></i></a>
+                    <a href="ANGADI_RAMYASRI.pdf" download class="btn btn-secondary"><i class="fas fa-download"></i> Resume</a>
+                    <a href="#contact" class="btn btn-outline">Let's Connect</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/aramyasri4853" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/aramyasri4853" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://leetcode.com/u/ramyasri_4853/" target="_blank" aria-label="LeetCode">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" style="display: block;">
+                            <path d="M13.483 0a1.374 1.374 0 0 0-.961.414l-9.777 9.778a3.75 3.75 0 0 0 5.302 5.302l8.517-8.517a1.361 1.361 0 1 0-1.924-1.924l-8.517 8.517a1.03 1.03 0 0 1-1.456 0 1.03 1.03 0 0 1 0-1.456l9.777-9.778A1.375 1.375 0 0 0 13.483 0z"/>
+                            <path d="M16.03 5.412a1.8 1.8 0 0 0-2.545 0L3.708 15.19a5.186 5.186 0 1 0 7.333 7.332l9.777-9.777a1.8 1.8 0 1 0-2.545-2.545l-9.777 9.777a1.587 1.587 0 0 1-2.245 0 1.587 1.587 0 0 1 0-2.245l9.777-9.777a1.8 1.8 0 0 0 0-2.545z"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:ramyasri4853@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+918019794853" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-circle">
+                    <img src="pic.jpeg" alt="Angadi Ramyasri portrait">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down-indicator">
+            <a href="#about" aria-label="Scroll to About Section">
+                <div class="mouse-scroll">
+                    <span class="mouse-wheel"></span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+        <h2>About Me & Education</h2>
+        <div class="card-container">
+            <div class="card glass-card">
+                <i class="fas fa-user-circle"></i>
+                <h3>My Story</h3>
+                <p>I am a passionate Computer Science Engineering student who enjoys creating modern websites and solving real‑world problems through programming and development.</p>
+            </div>
+            <div class="card glass-card">
+                <i class="fas fa-code"></i>
+                <h3>Coding Profile</h3>
+                <p><strong>LeetCode Username:</strong> ramyasri_4853</p>
+                <p style="margin-top: 8px;">Active problem solver focusing on Data Structures, Algorithms (DSA), and Java language skills. Solving complex challenges to build optimal solutions.</p>
+                <a href="https://leetcode.com/u/ramyasri_4853/" target="_blank" class="proj-link" style="margin-top: 15px; display: inline-flex;"><i class="fas fa-external-link-alt"></i> View LeetCode</a>
+            </div>
+            <div class="card glass-card">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Academic Path</h3>
+                <p class="education-item"><strong>Mahatma Gandhi Institute of Technology (MGIT)</strong><br>B.Tech CSE (CGPA: 8.64)</p>
+                <p class="education-item" style="margin-top: 15px;"><strong>Government Polytechnic for Women</strong><br>Diploma in CSE (CGPA: 9.64)</p>
+                <p class="education-item" style="margin-top: 15px;"><strong>ZPHS School Thimmampet</strong><br>SSC 10th (GPA: 10.0)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section">
+        <h2>Technical Stack</h2>
+        
+        <!-- Skills category selector tabs -->
+        <div class="skills-tabs">
+            <button class="skill-tab-btn active" data-category="all">All Skills</button>
+            <button class="skill-tab-btn" data-category="languages">Languages</button>
+            <button class="skill-tab-btn" data-category="web">Web Tech</button>
+            <button class="skill-tab-btn" data-category="databases">Databases</button>
+        </div>
+
+        <div class="card-container">
+            <div class="card skill-card" data-category="languages">
+                <i class="fab fa-java"></i>
+                <div class="skill-header-wrapper">
+                    <h3>Java</h3>
+                    <span class="skill-percent">85%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-fill" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="card skill-card" data-category="languages">
+                <i class="fab fa-python"></i>
+                <div class="skill-header-wrapper">
+                    <h3>Python</h3>
+                    <span class="skill-percent">80%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-fill" style="width: 80%"></div>
+                </div>
+            </div>
+            <div class="card skill-card" data-category="web">
+                <i class="fab fa-html5"></i>
+                <div class="skill-header-wrapper">
+                    <h3>HTML5</h3>
+                    <span class="skill-percent">90%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-fill" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="card skill-card" data-category="web">
+                <i class="fab fa-css3-alt"></i>
+                <div class="skill-header-wrapper">
+                    <h3>CSS3</h3>
+                    <span class="skill-percent">85%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-fill" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="card skill-card" data-category="web">
+                <i class="fab fa-js"></i>
+                <div class="skill-header-wrapper">
+                    <h3>JavaScript</h3>
+                    <span class="skill-percent">80%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-fill" style="width: 80%"></div>
+                </div>
+            </div>
+            <div class="card skill-card" data-category="databases">
+                <i class="fas fa-database"></i>
+                <div class="skill-header-wrapper">
+                    <h3>DBMS</h3>
+                    <span class="skill-percent">75%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-fill" style="width: 75%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section">
+        <span class="section-label">PORTFOLIO</span>
+        <h2 class="section-title-underline">Featured Projects</h2>
+        
+        <!-- Filter buttons -->
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="python-cv">Python & OpenCV</button>
+            <button class="filter-btn" data-filter="web-dev">Web Development</button>
+        </div>
+
+        <div class="card-container">
+            <!-- Project Card 1 -->
+            <div class="project-card" data-project-type="python-cv">
+                <div class="project-img-wrapper">
+                    <span class="project-tag">Python & CV</span>
+                    <img class="project-img" src="C:/Users/Dell/.gemini/antigravity/brain/66ef6579-cad0-49be-bbb3-e1b46e1bb8d5/drowsiness_1779258991439.png" alt="Driver Drowsiness Detection">
+                </div>
+                <div class="project-content">
+                    <span class="project-num">01</span>
+                    <h3>Driver Drowsiness Detection System</h3>
+                    <p>Developed a real-time driver safety system using OpenCV and facial landmark detection to track eye blinking rate of drivers...</p>
+                    <div class="project-links">
+                        <a href="https://github.com/aramyasri4853/Driver-Drowsiness-Detection-System" target="_blank" class="proj-link"><i class="fab fa-github"></i> View GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Card 2 -->
+            <div class="project-card" data-project-type="web-dev">
+                <div class="project-img-wrapper">
+                    <span class="project-tag">Web Dev</span>
+                    <img class="project-img" src="C:/Users/Dell/.gemini/antigravity/brain/66ef6579-cad0-49be-bbb3-e1b46e1bb8d5/ewaste_1779259015574.png" alt="E-Waste Management System">
+                </div>
+                <div class="project-content">
+                    <span class="project-num">02</span>
+                    <h3>E-Waste Management System</h3>
+                    <p>Created an interactive, responsive web portal to locate nearby e-waste recycling hubs. Integrates Google Maps API for real-time tracking and disposal locator.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/aramyasri4853/The-E-Waste-Management-System" target="_blank" class="proj-link"><i class="fab fa-github"></i> View GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Card 3 -->
+            <div class="project-card" data-project-type="web-dev">
+                <div class="project-img-wrapper">
+                    <span class="project-tag">IoT & Web</span>
+                    <img class="project-img" src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80" alt="Patient Monitoring System">
+                </div>
+                <div class="project-content">
+                    <span class="project-num">03</span>
+                    <h3>IoT Patient Monitoring System</h3>
+                    <p>Developed an IoT-based patient health monitoring system to track vitals (like heart rate and body temperature) in real-time, displaying data on a responsive web dashboard for clinical remote observation.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/aramyasri4853/Patient_Monitoring_System" target="_blank" class="proj-link"><i class="fab fa-github"></i> View GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="section">
+        <div class="experience-grid">
+            <!-- Left Column: Internship Experience -->
+            <div class="experience-col">
+                <span class="column-label">HISTORY</span>
+                <h2 class="column-title">Internship Experience</h2>
+                <div class="timeline">
+                    <!-- Internship Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card glass-card">
+                            <span class="status-badge present">Present</span>
+                            <h3>Yuga Yatra Retail</h3>
+                            <span class="role-subtitle">Software Intern</span>
+                            <p>Actively contributing to retail-tech software development and full stack architecture features.</p>
+                        </div>
+                    </div>
+                    <!-- Internship Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card glass-card">
+                            <span class="status-badge completed">Completed</span>
+                            <h3>Salesforce Developer</h3>
+                            <span class="role-subtitle">Virtual Intern (Smart Bridge & AICTE)</span>
+                            <p>Learnt Apex development, process builder cloud flows, and completed Salesforce ecosystem modules.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Certifications & Learning -->
+            <div class="experience-col">
+                <span class="column-label">ACHIEVEMENTS</span>
+                <h2 class="column-title">Certifications & Learning</h2>
+                <div class="certificates-list">
+                    <!-- Certificate 1 -->
+                    <div class="cert-card glass-card">
+                        <div class="cert-icon-wrapper">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h3>DSA Training (Java)</h3>
+                            <p>Deep dive into complexity analysis, linked lists, binary trees, sorting algorithms, and system optimization.</p>
+                            <span class="status-badge in-progress">IN PROGRESS</span>
+                        </div>
+                    </div>
+                    <!-- Certificate 2 -->
+                    <div class="cert-card glass-card">
+                        <div class="cert-icon-wrapper">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h3>IBM Cognitive Class</h3>
+                            <p>Introduction to Cloud Computing architectures, service models (IaaS, PaaS, SaaS), and deployment systems.</p>
+                            <span class="status-badge completed">COMPLETED</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section">
+        <h2>Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info-card glass-card">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p><a href="mailto:ramyasri4853@gmail.com">ramyasri4853@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p><a href="tel:+918019794853">+91 8019794853</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <div>
+                        <h4>LinkedIn</h4>
+                        <p><a href="https://linkedin.com/in/aramyasri4853" target="_blank">linkedin.com/in/aramyasri4853</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-terminal"></i>
+                    <div>
+                        <h4>LeetCode</h4>
+                        <p><a href="https://leetcode.com/u/ramyasri_4853/" target="_blank">leetcode.com/ramyasri_4853</a></p>
+                    </div>
+                </div>
+            </div>
+            <form id="contact-form" class="contact-form-card glass-card">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" required placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- TOAST ALERT -->
+    <div id="toast" class="toast">
+        <div class="toast-content">
+            <i class="fas fa-check-circle"></i>
+            <span id="toast-msg">Message sent successfully!</span>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col branding-col">
+                <div class="logo">AR.</div>
+                <p class="footer-desc">Passionate Computer Science Engineering student focused on building high-performance web applications and solving real-world challenges.</p>
+            </div>
+            <div class="footer-col links-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col socials-col">
+                <h3>Social Profiles</h3>
+                <ul>
+                    <li><a href="https://github.com/aramyasri4853" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                    <li><a href="https://linkedin.com/in/aramyasri4853" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="https://leetcode.com/u/ramyasri_4853/" target="_blank"><i class="fas fa-terminal"></i> LeetCode</a></li>
+                </ul>
+            </div>
+            <div class="footer-col info-col">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-envelope"></i> ramyasri4853@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +91 8019794853</p>
+                <p><i class="fas fa-map-marker-alt"></i> Mahatma Gandhi Institute of Technology (MGIT), Hyderabad, India</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Angadi Ramyasri. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
